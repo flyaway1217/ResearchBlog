@@ -1,3 +1,3 @@
 # ResearchBlog
 
-URL: [research.zhouyichu.com](research.zhouyichu.com)
+URL: [research.zhouyichu.com](http://research.zhouyichu.com/)
