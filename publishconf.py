@@ -14,14 +14,15 @@ from pelicanconf import *
 SITEURL = 'http://research.zhouyichu.com'
 RELATIVE_URLS = False
 
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
+FEED_ALL_ATOM = 'feeds/atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
+FEED_DOMAIN=SITEURL
 
 DELETE_OUTPUT_DIRECTORY = True
 
 # Following items are often useful when publishing
 
-DISQUS_SITENAME = "research.yichu"
+DISQUS_SITENAME = "research-yichu"
 GOOGLE_ANALYTICS = "UA-146436790-1"
 
 

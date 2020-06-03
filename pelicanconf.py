@@ -7,7 +7,7 @@ SITENAME = "Yichu Zhou | Research Blog"
 SITEURL = ''
 
 PLUGIN_PATHS = ['../pelican-plugins']
-PLUGINS = ['post_stats', 'better_tables', 'tipue_search', 'neighbors', 'pelican-cite', 'render_math', 'simple_footnotes',  'pelican-toc', 'share_post']
+PLUGINS = ['post_stats', 'better_tables', 'tipue_search', 'neighbors', 'pelican-cite', 'render_math', 'simple_footnotes', 'share_post']
 
 THEME='elegant'
 
@@ -35,6 +35,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 # Social widget
 SOCIAL = (('Github', 'https://github.com/flyaway1217'),
         ('Email', 'flyaway1217@gmail.com', 'My Email Address'),
+        ('RSS', 'http://research.zhouyichu.com/feeds/atom.xml'),
         )
 
 DEFAULT_PAGINATION = 10
@@ -82,3 +83,5 @@ AUTHORS = {
 
 AUTHOR='Yichu Zhou'
 PDF_STYLE_PATH = 'output/pdf/'
+
+COMMENTS_INTRO='So what do you think? Did I miss something? Is any part unclear? Leave your comments below'
