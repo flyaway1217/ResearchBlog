@@ -5,6 +5,8 @@ Slug: Resume
 
 # Publications
 
+- **[On the Limits of Learning to Actively Learn Semantic Representations][]**
+ Omri Koshorek, Gabriel Stanovsky, *Yichu Zhou*,i Vivek Srikumar, Jonathan Berant. In Proceedings of the 23rd Conference on Computational Natural Language Learning (CoNLL) (pp. 452-462).
 - **[Beyond Context: A New Perspective for Word Embeddings][]** 
     *Yichu Zhou* and Vivek Srikumar.  Proceedings of the Eighth Joint Conference on Lexical and Computational Semantics (* SEM 2019)
 
@@ -16,6 +18,7 @@ Slug: Resume
 
 # Experience
 
+- NLP Research Intern in [Tencent Amercia][] Summer 2020
 - Oral Presentation in Starsem 2019
 - Teaching Assistant in Machine Learning Class Fall 2018
 - Teaching Assistant in Machine Learning Class Fall 2017
@@ -30,12 +33,14 @@ Slug: Resume
 
 - [PYEVALB][] is a python version of [Evalb][] which is used to score the bracket tree banks.
 - [ExAssist][] is an light-weight assist tool that can save your time from doing experiments.
-- [FeVER][] is the implementation of the paper [Beyond Context: A New Perspective for Word Embeddings][].
+- [FeVER][] impelements **[Beyond Context: A New Perspective for Word Embeddings][]**.
 
 
 [Beyond Context: A New Perspective for Word Embeddings]: https://www.aclweb.org/anthology/S19-1#page=38
 [Building a Chinese Dependency GraphBank]: https://ieeexplore.ieee.org/abstract/document/7814465
 [Resolving Coordinate Structures for Chinese Constituent Parsing]: http://tcci.ccf.org.cn/conference/2015/papers/195.pdf
+[On the Limits of Learning to Actively Learn Semantic Representations]: https://www.aclweb.org/anthology/K19-1042/
+[Tencent Amercia]: https://www.linkedin.com/company/tencent-america/
 [University of Utah]: https://www.utah.edu/
 [Nanjing University]: https://www.nju.edu.cn/
 [Nanjing Normal University]: http://www.njnu.edu.cn/
