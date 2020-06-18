@@ -6,6 +6,7 @@ Tags: word embeddings, word2vec
 Summary: 
 Slug: word-representations
 Comment_id: word-representations
+Status: draft
 
 As a semi-computer scientist, I always have a dream that we,
 human, can make the computers understand what we say.
