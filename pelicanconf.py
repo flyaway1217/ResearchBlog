@@ -41,7 +41,12 @@ SOCIAL = (('Github', 'https://github.com/flyaway1217'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
+ARTICLE_URL='{slug}.html'
+DRAFT_URL='drafts/{slug}.html'
+PAGE_URL='{slug}.html'
+PAGE_SAVE_AS='{slug}.html'
+AUTHOR_SAVE_AS=''
 
 LANDING_PAGE_TITLE="Welcome to My Research Blog"
 
@@ -83,5 +88,18 @@ AUTHORS = {
 
 AUTHOR='Yichu Zhou'
 PDF_STYLE_PATH = 'output/pdf/'
+
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.admonition': {},
+        'markdown.extensions.footnotes': {},
+        'markdown.extensions.def_list': {},
+        'markdown.extensions.tables': {},
+        'markdown.extensions.toc': {
+            'title': 'Table of Contents:',
+            'anchorlink': True,
+            'permalink': True}
+        }
+  }
 
 COMMENTS_INTRO='So what do you think? Did I miss something? Is any part unclear? Leave your comments below'
