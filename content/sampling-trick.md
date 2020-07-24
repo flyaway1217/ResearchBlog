@@ -6,23 +6,27 @@ Date: 2017-5-31
 Slug: Sampling-Trick
 comment_id: Sampling-Trick
 
-During the recent paper readings, I find that we need to estimate the size of a subset from time to time.
-This subset comes from a extreme large set which means this subset may also be extreme large.
-The naive way to know the size of this subset is to go through all the elements of this subset.
-However, because of the extreme large size, it is impossible for us in practise.
-So, what we need is a way to estimate the size of subset quickly.
-One of the typical scenarios is the [Ranking Problem][].
-In [Ranking Problem][] problem, we need to know how many instances are there ranking before the current instance.
-And this operation will be applied to each instance.
-Apparently, it is impossible for us to go through the whole training set.
+During the recent paper readings, I find that we need to
+estimate the size of a subset from time to time.  This
+subset comes from a extreme large set which means this
+subset may also be extreme large.  The naive way to know the
+size of this subset is to go through all the elements of
+this subset.  However, because of the extreme large size, it
+is impossible for us in practise.  So, what we need is a way
+to estimate the size of subset quickly.  One of the typical
+scenarios is the [Ranking Problem][].  In [Ranking
+Problem][] problem, we need to know how many instances are
+there ranking before the current instance.  And this
+operation will be applied to each instance.  Apparently, it
+is impossible for us to go through the whole training set.
 
 # Sampling
 
 An reasonable way is to estimate the size of subset based on sampling.
 
-Let's first set up some backgrounds.
-We assume the whole set is $Y$, its size is denoted as $\vert Y\vert$.
-Set $S\subset Y$ is the subset and $\vert S\vert$ is what we need to estimate.
+Let's first set up some backgrounds.  We assume the whole set is $Y$, its size
+is denoted as $\vert Y\vert$.  Set $S\subset Y$ is the subset and $\vert
+S\vert$ is what we need to estimate.
 
 ## Geometric Distribution
 
