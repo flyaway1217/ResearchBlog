@@ -7,7 +7,9 @@ SITENAME = "Yichu Zhou | Research Blog"
 SITEURL = ''
 
 PLUGIN_PATHS = ['../pelican-plugins']
-PLUGINS = ['post_stats', 'better_tables', 'tipue_search', 'neighbors', 'pelican-cite', 'render_math', 'simple_footnotes', 'share_post']
+PLUGINS = ['post_stats', 'better_tables', 'tipue_search',
+        'neighbors', 'pelican-cite', 'render_math',
+        'simple_footnotes', 'share_post', 'better_figures_and_images']
 
 THEME='elegant'
 
@@ -98,7 +100,11 @@ MARKDOWN = {
         'markdown.extensions.toc': {
             'title': 'Table of Contents:',
             'anchorlink': True,
-            'permalink': True}
+            'permalink': True},
+        'markdown.extensions.meta': {},
+        'markdown.extensions.extra': {},
+        'markdown_image_caption.plugin': {},
+        # 'markdown_captions': {}
         }
   }
 
