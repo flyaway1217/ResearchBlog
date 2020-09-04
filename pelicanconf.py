@@ -9,7 +9,8 @@ SITEURL = ''
 PLUGIN_PATHS = ['../pelican-plugins']
 PLUGINS = ['post_stats', 'better_tables', 'tipue_search',
         'neighbors', 'pelican-cite', 'render_math',
-        'simple_footnotes', 'share_post', 'better_figures_and_images']
+        'simple_footnotes', 'share_post',
+        'better_figures_and_images', 'series']
 
 THEME='elegant'
 

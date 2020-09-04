@@ -1,8 +1,9 @@
 Title: A Little History of Word Representation
 Date: 2020-05-09
+Modified: 2020-08-06 18:46
 Category: Word-Representations
 Keywords: word embeddings, word2vec
-Tags: word embeddings, word2vec
+Tags: word embeddings, word2vec, BERT
 Summary: A Little History of Word Representation
 Slug: a-little-history-of-word-representation
 Comment_id: a-little-history-of-word-representation
