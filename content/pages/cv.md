@@ -5,8 +5,12 @@ Slug: Resume
 
 # Publications
 
+- **[DirectProbe: Studying Representations without Classifiers]**
+    *Yichu Zhou* and Vivek Srikumar. Under review in NAACL 2021
+
 - **[On the Limits of Learning to Actively Learn Semantic Representations][]**
- Omri Koshorek, Gabriel Stanovsky, *Yichu Zhou*,i Vivek Srikumar, Jonathan Berant. In Proceedings of the 23rd Conference on Computational Natural Language Learning (CoNLL) (pp. 452-462).
+ Omri Koshorek, Gabriel Stanovsky, *Yichu Zhou*, Vivek Srikumar, Jonathan Berant. In Proceedings of the 23rd Conference on Computational Natural Language Learning (CoNLL) (pp. 452-462).
+
 - **[Beyond Context: A New Perspective for Word Embeddings][]** 
     *Yichu Zhou* and Vivek Srikumar.  Proceedings of the Eighth Joint Conference on Lexical and Computational Semantics (* SEM 2019)
 

@@ -7,7 +7,7 @@ SITENAME = "Yichu Zhou | Research Blog"
 SITEURL = ''
 
 PLUGIN_PATHS = ['../pelican-plugins']
-PLUGINS = ['post_stats', 'better_tables', 'tipue_search',
+PLUGINS = ['post_stats', 'better_tables',  'tipue_search',
         'neighbors', 'pelican-cite', 'render_math',
         'simple_footnotes', 'share_post',
         'better_figures_and_images', 'series']
@@ -95,6 +95,7 @@ PDF_STYLE_PATH = 'output/pdf/'
 MARKDOWN = {
     'extension_configs': {
         'markdown.extensions.admonition': {},
+        'markdown.extensions.legacy_attrs': {},
         'markdown.extensions.footnotes': {},
         'markdown.extensions.def_list': {},
         'markdown.extensions.tables': {},
@@ -110,3 +111,8 @@ MARKDOWN = {
   }
 
 COMMENTS_INTRO='So what do you think? Did I miss something? Is any part unclear? Leave your comments below'
+
+ENCRYPT_CONTENT = {
+    'title_prefix': '[Encrypted]',
+    'summary': 'This content is encrypted.'
+}
