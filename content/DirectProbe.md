@@ -1,14 +1,12 @@
-Title: DirectProbe-Studying the Representation without Classifiers
+Title: DirectProbe-Studying Representations without Classifiers
 Date: 2020-12-08 16:38
-Modified: 2021-01-11 16:50
+Modified: 2021-03-12 09:08
 Category: Probing
 Keywords: DirectProbe, Geometry
 Tags: DirectProbe, Geometry
 Summary: Introduction for DirectProbe.
 Slug: DirectProbe
 Comment_id: DirectProbe
-status: draft
-Password: 123456
 
 
 [TOC]
@@ -118,7 +116,7 @@ characterize all classifiers supported by a representation.
 From the viewpoint of a classifier, it is trained to find a
 set of parameters such that the prediction of the classifier
 is consistent with the examples in the training set.
-**Geometrically speaking, each leanred classifier is a
+**Geometrically speaking, each learned classifier is a
 decision boundary in the high dimension space as showed in
 the following figure.{@style=color:darkorange}**
 
@@ -248,7 +246,7 @@ algorithm:
 - Always pick two closest clusters to be merged
 - Two clusters can be merged only when
     - They have the same label
-    - **The convec hull of new cluster does not overlap with
+    - **The convex hull of new cluster does not overlap with
       convex hulls of other clusters{@style=color:darkorange}**
 - Repeat until no clusters can be merged
 
@@ -277,7 +275,7 @@ clusters.
   can fit well.
 - If $n$ is larger than the number of label, then some
   labels are distributed across multiple clusters. This
-  means the decison boundary that can separate the clusters
+  means the decision boundary that can separate the clusters
   is non-linear. Consquently, this scenario calls for a more
   complex classifier, e.g. a multi-layer neural network.
 
@@ -289,7 +287,7 @@ a task with a given representation?{@style=color:maroon}**
 
 To validate our claim, we use the training accuracy of a
 linear SVM classifier. If a linear SVM can perfectly fit
-($100\%$ accuracy), then there exist linear decison
+($100\%$ accuracy), then there exist linear decision
 boundaries that separate the labels. The following table
 shows the results of our experiments.  We can observe that
 almost all of the representations we experimented are linear
@@ -305,10 +303,10 @@ easy or that the best classifier should be a linear one.
 
 ![Linearity]({static}/images/DirectProbe/linear.png "Linearity of different representations and tasks"){@style=text-align:center}
 
-## Higher Layers have larger $\epsilon$-Verion Space
+## Higher Layers have larger $\epsilon$-Version Space
 
 The distance between clusters is another important
-properity we should consider. We apply the *DirectProbe* on
+property we should consider. We apply the *DirectProbe* on
 each layer of BERT-base-cased model for five tasks. For each
 layer(space), we compute the **minimum
 distance{@style=color:darkorange}** between all pairs of
@@ -392,11 +390,11 @@ V_{\epsilon}(\mathcal{H},E,D)$ is a predictor for the task
 $D$ on the representation $E$. So, as a by-product, the
 clusters from *DirectProbe* can also be used as a predictor.
 The prediction strategy can be very simple: for a test
-example, we assign it to its cloest cluster. We call tis
+example, we assign it to its closest cluster. We call this
 accuracy **intra-accuracy.{@style=color:darkorange}**
 Because this strategy is very similar to the nearest
-neighbor classification (1-kNN), which assigns the unlablled
-test point to its closest labelled point, we also compare
+neighbor classification (1-kNN), which assigns the unlabeled
+test point to its closest labeled point, we also compare
 with the 1-kNN accuracy. The following figure shows the
 results.
 
