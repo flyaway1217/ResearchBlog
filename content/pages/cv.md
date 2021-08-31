@@ -6,7 +6,11 @@ Slug: Resume
 # Publications
 
 - **[DirectProbe: Studying Representations without Classifiers][]**
-    *Yichu Zhou* and Vivek Srikumar. Accepted by NAACL 2021 [[Video](NAACL 2021 Oral)]
+    *Yichu Zhou* and Vivek Srikumar. 2021. In Proceedings of
+    the 2021 Conference of the North American Chapter of the
+    Association for Computational Linguistics: Human
+    Language Technologies, pages 5070–5083, Online.
+    Association for Computational Linguistics. [[Video](NAACL 2021 Oral)]
 
 - **[On the Limits of Learning to Actively Learn Semantic Representations][]**
  Omri Koshorek, Gabriel Stanovsky, *Yichu Zhou*, Vivek Srikumar, Jonathan Berant. In Proceedings of the 23rd Conference on Computational Natural Language Learning (CoNLL) (pp. 452-462).
