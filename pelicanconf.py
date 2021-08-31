@@ -63,7 +63,11 @@ PROJECTS = [{
     {'name': 'FeVER', 
         'url': 'https://github.com/flyaway1217/FeVER',
         'description':'implementation of the paper Beyond Context: A New Perspective for Word Embeddings'
-        }]
+        },
+    {'name': 'DirectProbe',
+        'url': 'https://github.com/utahnlp/DirectProbe',
+        'description':'implementation of the paper DirectProbe: Studying Representations without Classifiers'}
+    ]
 
 PROJECTS_TITLE = "My Projects"
 
