@@ -1,6 +1,6 @@
 Title: DirectProbe-Studying Representations without Classifiers
 Date: 2020-12-08 16:38
-Modified: 2021-03-12 09:08
+Modified: 2021-08-31 15:19
 Category: Probing
 Keywords: DirectProbe, Geometry
 Tags: DirectProbe, Geometry
@@ -8,6 +8,9 @@ Summary: Introduction for DirectProbe.
 Slug: DirectProbe
 Comment_id: DirectProbe
 
+This is a post for the NAACL 2021 [paper](https://aclanthology.org/2021.naacl-main.401/). Oral video can be found [here][NAACL 2021 Oral].
+
+----------
 
 [TOC]
 
@@ -440,3 +443,5 @@ find:
 [^1]: For all tasks, the last layer of BERT-base-cased is
   linearly separable. So the number of labels pairs equals
   the numebr of cluster pairs.
+
+[NAACL 2021 Oral]: https://underline.io/events/122/sessions/4261/lecture/19706-directprobe-studying-representations-without-classifiers

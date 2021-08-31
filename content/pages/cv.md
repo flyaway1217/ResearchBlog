@@ -10,7 +10,7 @@ Slug: Resume
     the 2021 Conference of the North American Chapter of the
     Association for Computational Linguistics: Human
     Language Technologies, pages 5070–5083, Online.
-    Association for Computational Linguistics. [[Video](NAACL 2021 Oral)]
+    Association for Computational Linguistics. [[Video][NAACL 2021 Oral]]
 
 - **[On the Limits of Learning to Actively Learn Semantic Representations][]**
  Omri Koshorek, Gabriel Stanovsky, *Yichu Zhou*, Vivek Srikumar, Jonathan Berant. In Proceedings of the 23rd Conference on Computational Natural Language Learning (CoNLL) (pp. 452-462).
@@ -27,7 +27,7 @@ Slug: Resume
 # Experience
 
 - Applied Scientist Intern at Amazon Summer 2021
-- Oral Presentation in NNACL 2021: [Video](NAACL 2021 Oral)
+- Oral Presentation in NNACL 2021: [Video][NAACL 2021 Oral]
 - NLP Research Intern at [Tencent Amercia][] Summer 2020
 - Oral Presentation in Starsem 2019
 - Teaching Assistant in Machine Learning Class Fall 2018
