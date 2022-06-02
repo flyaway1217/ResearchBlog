@@ -6,7 +6,7 @@ Slug: Resume
 # Publications
 
 - **[A Closer Look at How Fine-tuning Changes BERT][]**
-    **Yichu Zhou** and Vivek Srikumar. Accepted by ACL 2022.
+ **Yichu Zhou** and Vivek Srikumar. 2022. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 1046–1061, Dublin, Ireland. Association for Computational Linguistics. [[Video][ACL 2022 Oral]]
 
 - **[Putting Words in BERT's Mouth: Navigating Contextualized
   Vector Spaces with Pseudowords][Putting Words in BERT's Mouth]**
@@ -56,11 +56,11 @@ Slug: Resume
   loss functions.
 
 
+[ACL 2022 Oral]: https://underline.io/events/321/posters/11073/poster/50262-long-a-closer-look-at-how-fine-tuning-changes-bert
 [Putting Words in BERT's Mouth]: https://arxiv.org/abs/2109.11491
 [NAACL 2021 Oral]: https://underline.io/events/122/sessions/4261/lecture/19706-directprobe-studying-representations-without-classifiers
-[A Closer Look at How Fine-tuning Changes BERT]: https://arxiv.org/abs/2106.14282
 [DirectProbe: Studying Representations without Classifiers]: https://aclanthology.org/2021.naacl-main.401/
-[A Closer Look at How Fine-tuning Changes BERT]: https://arxiv.org/abs/2106.14282
+[A Closer Look at How Fine-tuning Changes BERT]: https://aclanthology.org/2022.acl-long.75/
 [Beyond Context: A New Perspective for Word Embeddings]: https://www.aclweb.org/anthology/S19-1#page=38
 [Building a Chinese Dependency GraphBank]: https://ieeexplore.ieee.org/abstract/document/7814465
 [Resolving Coordinate Structures for Chinese Constituent Parsing]: http://tcci.ccf.org.cn/conference/2015/papers/195.pdf
